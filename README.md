@@ -1,4 +1,4 @@
-# 🌟 LumenVision
+# LumenVision
 
 **Transformando conteúdo em conhecimento.**
 
