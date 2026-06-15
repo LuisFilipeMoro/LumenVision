@@ -43,30 +43,6 @@ O **LumenVision** é um sistema inteligente desenvolvido para a disciplina de Si
     
 ---
 
-## Estrutura de Pastas
-
-LumenVision/
-│
-├── assets/               # Arquivos de estilização e identidade visual
-│   ├── logo.png
-│   └── styles.css
-│
-├── modules/              # Módulos com as funcionalidades do sistema
-│   ├── ai.py             # Integração principal com o Ollama / Qwen 2.5
-│   ├── docx_reader.py    # Extrator de texto de arquivos Word (.docx)
-│   ├── image_reader.py   # Módulo de OCR para leitura de imagens
-│   ├── keywords.py       # Extrator de palavras-chave do conteúdo
-│   ├── pdf_reader.py     # Extrator de texto de arquivos PDF
-│   ├── stats.py          # Estatísticas e métricas dos dados processados
-│   ├── summary.py        # Lógica de geração de resumos acadêmicos
-│   └── txt_reader.py     # Leitor de arquivos de texto simples (.txt)
-│
-├── uploads/              # Pasta temporária para armazenamento dos arquivos enviados
-│
-├── app.py                # Arquivo principal da interface (Streamlit)
-├── requirements.txt      # Bibliotecas e dependências do projeto
-└── teste_ia.py           # Script de teste de integração com a IA
-
 ## Status: 
 Em desenvolvimento (Projeto Prático - UFSC)
 
