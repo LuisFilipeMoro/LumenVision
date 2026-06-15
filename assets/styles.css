@@ -1,0 +1,104 @@
+/* Fundo geral */
+.main {
+    background-color: #F8FAFC;
+}
+
+/* Logo */
+img {
+    display: block;
+    margin: auto;
+}
+
+/* Título */
+.main-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1E3A8A;
+    margin-top: 10px;
+}
+
+/* Slogan */
+.slogan {
+    text-align: center;
+    font-size: 20px;
+    color: #FBBF24;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Descrição */
+.description {
+    text-align: center;
+    font-size: 18px;
+    color: #475569;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* Subtítulos */
+h2, h3 {
+    color: #1E3A8A;
+}
+
+/* Cards de métricas */
+[data-testid="stMetric"] {
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    border-left: 6px solid #FBBF24;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Título dos cards */
+[data-testid="stMetricLabel"] {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Valor dos cards */
+[data-testid="stMetricValue"] {
+    color: #1E3A8A;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Caixa de texto */
+.stTextArea textarea {
+    border-radius: 15px;
+    border: 2px solid #CBD5E1;
+}
+
+/* Upload */
+[data-testid="stFileUploader"] {
+    border: 2px dashed #1E3A8A;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Botões */
+.stButton button {
+    background-color: #1E3A8A;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+/* Divider */
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.keyword-tag {
+    background-color: #DBEAFE;
+    color: #1E3A8A;
+    padding: 8px 14px;
+    border-radius: 20px;
+    margin: 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+}

@@ -1,0 +1,7 @@
+streamlit
+pdfplumber
+python-docx
+opencv-python
+pytesseract
+pillow
+nltk
